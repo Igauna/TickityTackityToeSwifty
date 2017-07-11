@@ -9,15 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  //declares players turn
+   
     @IBOutlet weak var pTurn: UILabel!
-    
+    //declares winner
     @IBOutlet weak var winnerWinnerChickenDInner: UILabel!
-    
+    //declares player one score
     @IBOutlet weak var oneScore: UILabel!
-    
+    //delcares player two score
     @IBOutlet weak var twoScore: UILabel!
-    
+    //declares lables for each of the grid quadrants.
     @IBOutlet weak var topLeft: UILabel!
     
     @IBOutlet weak var topMiddle: UILabel!
