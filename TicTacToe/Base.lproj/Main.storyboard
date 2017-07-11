@@ -126,14 +126,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6f0-If-vEV">
-                                <rect key="frame" x="249" y="391" width="107" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.62691373169999998" blue="0.77441115130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNk-Or-vsS">
                                 <rect key="frame" x="27" y="391" width="101" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -182,11 +174,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6f0-If-vEV">
+                                <rect key="frame" x="249" y="391" width="107" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.62691373169999998" blue="0.77441115130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="0.54569777397260288" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zRl-7O-1ge" appends="YES" id="P8V-Mc-JbQ"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="bottomLeft" destination="tNk-Or-vsS" id="KUG-nR-a5m"/>
+                        <outlet property="bottomMiddle" destination="wbB-9W-mYi" id="7sn-Jg-zBx"/>
+                        <outlet property="bottomRight" destination="6f0-If-vEV" id="st1-9F-StQ"/>
+                        <outlet property="middleLeft" destination="Jfd-US-Xm7" id="lHK-Cl-tKi"/>
+                        <outlet property="middleMiddle" destination="WXP-7p-gQP" id="XUS-ZC-ei9"/>
+                        <outlet property="middleRight" destination="aeC-UC-egD" id="H1b-Gz-ai5"/>
+                        <outlet property="tappyTap" destination="zRl-7O-1ge" id="Yzd-yL-BqV"/>
+                        <outlet property="topLeft" destination="AtT-EE-TXg" id="Zlr-9N-Svz"/>
+                        <outlet property="topMiddle" destination="fd1-oD-UoR" id="wTe-Ve-7Ae"/>
+                        <outlet property="topRight" destination="yHJ-CS-CKF" id="Rj3-Or-eaf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="zRl-7O-1ge"/>
             </objects>
             <point key="canvasLocation" x="-98.400000000000006" y="123.68815592203899"/>
         </scene>

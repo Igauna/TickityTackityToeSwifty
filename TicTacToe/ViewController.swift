@@ -9,7 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+//All the labels dont touch em
+    
+    @IBOutlet weak var topLeft: UILabel!
+    
+    @IBOutlet weak var topMiddle: UILabel!
+    
+    @IBOutlet weak var topRight: UILabel!
+    
+    @IBOutlet weak var middleLeft: UILabel!
+    
+    @IBOutlet weak var middleMiddle: UILabel!
+    
+    @IBOutlet weak var middleRight: UILabel!
+    
+    @IBOutlet weak var bottomLeft: UILabel!
+    
+    @IBOutlet weak var bottomMiddle: UILabel!
+    
+    @IBOutlet weak var bottomRight: UILabel!
 
+    @IBOutlet var tappyTap: UITapGestureRecognizer!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
