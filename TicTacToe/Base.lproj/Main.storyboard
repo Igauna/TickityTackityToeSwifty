@@ -58,7 +58,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zg6-01-OkF">
-                                <rect key="frame" x="242" y="599" width="42" height="21"/>
+                                <rect key="frame" x="242" y="599" width="42" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -196,10 +196,14 @@
                         <outlet property="middleLeft" destination="Jfd-US-Xm7" id="lHK-Cl-tKi"/>
                         <outlet property="middleMiddle" destination="WXP-7p-gQP" id="XUS-ZC-ei9"/>
                         <outlet property="middleRight" destination="aeC-UC-egD" id="H1b-Gz-ai5"/>
+                        <outlet property="p1Score" destination="zg6-01-OkF" id="MD1-pn-aV1"/>
+                        <outlet property="p2Score" destination="6gD-LG-tdn" id="AP7-RM-dE5"/>
+                        <outlet property="pTurn" destination="qqe-eR-CMD" id="ATR-fE-XaB"/>
                         <outlet property="tappyTap" destination="zRl-7O-1ge" id="Yzd-yL-BqV"/>
                         <outlet property="topLeft" destination="AtT-EE-TXg" id="Zlr-9N-Svz"/>
                         <outlet property="topMiddle" destination="fd1-oD-UoR" id="wTe-Ve-7Ae"/>
                         <outlet property="topRight" destination="yHJ-CS-CKF" id="Rj3-Or-eaf"/>
+                        <outlet property="winnerWinnerChickenDinner" destination="WGE-vZ-ddZ" id="beY-wz-fCW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

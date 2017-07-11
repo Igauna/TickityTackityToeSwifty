@@ -28,7 +28,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var bottomMiddle: UILabel!
     
     @IBOutlet weak var bottomRight: UILabel!
-
+    
+// dis be player turn
+    @IBOutlet weak var pTurn: UILabel!
+    
+    // dis be weiner
+    @IBOutlet weak var winnerWinnerChickenDinner: UILabel!
+    
+   // names le scores for pwayers
+    @IBOutlet weak var p1Score: UILabel!
+    
+    @IBOutlet weak var p2Score: UILabel!
+    
+    // dis be for tappy da scween
     @IBOutlet var tappyTap: UITapGestureRecognizer!
     override func viewDidLoad() {
         super.viewDidLoad()
