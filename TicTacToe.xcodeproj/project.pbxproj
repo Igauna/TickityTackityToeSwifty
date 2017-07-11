@@ -507,6 +507,7 @@
 				5434AD081F13F3E800411167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5434AD091F13F3E800411167 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				5434AD0B1F13F3E800411167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5434AD0C1F13F3E800411167 /* Build configuration list for PBXNativeTarget "TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				5434AD0E1F13F3E800411167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
