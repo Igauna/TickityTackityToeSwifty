@@ -102,7 +102,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVF-xn-WAC">
-                                <rect key="frame" x="26" y="218" width="95" height="83"/>
+                                <rect key="frame" x="26" y="217" width="95" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95453996249999995" green="0.63123885670000002" blue="0.86549404060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -122,20 +122,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95453996249999995" green="0.63123885670000002" blue="0.86549404060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="player turn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-oz-0hg">
-                                <rect key="frame" x="55" y="89" width="283" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="winner: 1 or 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcY-b5-PNs">
-                                <rect key="frame" x="55" y="139" width="291" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -186,11 +172,46 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="player turn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-oz-0hg">
+                                <rect key="frame" x="51" y="91" width="283" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="winner: 1 or 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcY-b5-PNs">
+                                <rect key="frame" x="51" y="141" width="291" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="0.54997859589999998" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FcA-eL-5PO" appends="YES" id="1do-eI-d7n"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="botLeft" destination="BpM-vO-ryY" id="YuD-O3-we7"/>
+                        <outlet property="botMiddle" destination="lqK-X1-hYg" id="E43-i4-A9Q"/>
+                        <outlet property="botRight" destination="xoU-zi-G0k" id="JWx-60-6Cc"/>
+                        <outlet property="middleLeft" destination="d2i-pU-teE" id="T1k-1c-jc3"/>
+                        <outlet property="middleMiddle" destination="RJw-Eh-ekH" id="olP-bp-mio"/>
+                        <outlet property="middleRight" destination="kjD-Iy-McG" id="MuL-jv-jB8"/>
+                        <outlet property="oneScore" destination="MF6-qp-4pn" id="kHm-hj-V1a"/>
+                        <outlet property="pTurn" destination="vzy-oz-0hg" id="W6g-kD-1Xb"/>
+                        <outlet property="tappyTap" destination="FcA-eL-5PO" id="3Ff-N0-UXb"/>
+                        <outlet property="topLeft" destination="eVF-xn-WAC" id="BWm-IV-0AB"/>
+                        <outlet property="topMiddle" destination="LKb-Lg-QGW" id="o43-go-IQw"/>
+                        <outlet property="topRight" destination="N8a-Ik-kZ6" id="kHr-dB-aRE"/>
+                        <outlet property="twoScore" destination="5tT-u0-yA4" id="MOj-pR-yzl"/>
+                        <outlet property="winnerWinnerChickenDInner" destination="pcY-b5-PNs" id="nB1-nl-85M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="FcA-eL-5PO"/>
             </objects>
             <point key="canvasLocation" x="116" y="123.68815592203899"/>
         </scene>
