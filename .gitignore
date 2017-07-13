@@ -1,3 +1,9 @@
 
 .DS_Store
+<<<<<<< HEAD
 *.xcuserstate
+=======
+.DS_Store
+*.xcuserstate
+.DS_Store
+>>>>>>> 85d161c742c6cd0395aa53a11eb75dbd528ac93b
